@@ -16,7 +16,7 @@ python legged_gym/legged_gym/scripts/train.py --proj_name xx --exptid xx --resum
 ```
 
 ## 1.3 Start Learning to Explore New Skills
-- Set `gait_explora_curriculum = True` in `legged_robot config`. Keep `parkour_flat`, `parkour hurdle`, `parkour step`, and `parkour gap` all at `0.25` in the `terrain dict`.
+- Set `gait_explora_curriculum = True` in `legged_robot config`. Keep `parkour flat`, `parkour hurdle`, `parkour step`, and `parkour gap` all at `0.25` in the `terrain_dict`.
 - Training command:
 ```bash
 python legged_gym/legged_gym/scripts/train.py --proj_name xx --exptid xx --resume --resumeid xx --parkour_terrain
