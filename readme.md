@@ -2,14 +2,14 @@
 # 1. How to Trains
 
 ## 1.1 Train Basic Skills
-- Set `gait_explora_curriculum = False` in `legged_robot_config`, and set `parkour_flat` to `1` in the `terrain_dict`.
+- Set `gait_explora_curriculum = False` in `legged_robot_config`, and set `parkour flat` to `1` in the `terrain_dict`.
 - Training command:
 ```bash
 python legged_gym/legged_gym/scripts/train.py --proj_name xx --exptid xx
 ```
 
 ## 1.2 Train Basic Skills for Parkour
-- Set `parkour_flat`, `parkour hurdle`, `parkour step`, and `parkour gap` all to `0.25` in the `terrain_dict`.
+- Set `parkour flat`, `parkour hurdle`, `parkour step`, and `parkour gap` all to `0.25` in the `terrain_dict`.
 - Training command:
 ```bash
 python legged_gym/legged_gym/scripts/train.py --proj_name xx --exptid xx --resume --resumeid xx --parkour_terrain
