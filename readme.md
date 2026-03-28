@@ -1,7 +1,7 @@
 
 # 1. How to Trains
 
-## 1.1 First, Train Basic Skills
+## 1.1 Train Basic Skills
 - Set `gait_explora_curriculum = False` in `legged_robot config`, and set `parkour_flat` to `1` in the `terrain dict`.
 - Training command:
 ```bash
@@ -28,8 +28,8 @@ The pre-trained basic skills, basic skills for parkour, and explored skills are 
 ## 2.1 View Basic Skills
 Commands:
 ```bash
-python play.py --parkour_terrains --proj_name=basic_gait --resume --exptid=basic skills
-python play.py --parkour_terrains --proj_name=basic_gait --resume --exptid=basic skill parkour
+python play.py --parkour_terrains --proj_name=basic_gait --resume --exptid=basic_skills
+python play.py --parkour_terrains --proj_name=basic_gait --resume --exptid=basic_skill_parkour
 ```
 
 ## 2.2 View Newly Learned Skills
