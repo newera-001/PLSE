@@ -162,8 +162,6 @@ def play(args):
         env.gait_phase[:, 2] = 0
         env.gait_phase[:, 3] = 1
 
-    colomo_data = []
-    hang_data = []
 
     for i in range(1):
         for i in range(int(env.max_episode_length)):
@@ -196,10 +194,6 @@ def play(args):
                 else:
                     actions = policy(obs.detach(), hist_encoding=True, scandots_latent=depth_latent)
 
-            """
-            记录动作来绘制可行性空间，来表明可探索的空间范围。用不同颜色标定基本空间和潜在探索的有效空间。
-            """
-            # temp_data = torch.cat([temp_data,torch.tensor(actions).to(env.device)])
 
             hang_data.append(actions.detach().cpu().numpy())
 
@@ -215,11 +209,6 @@ def play(args):
             
             id = env.lookat_id
 
-        colomo_data.append(hang_data)
-        hang_data = []
-        
-    # df = pd.DataFrame(colomo_data)
-    # df.to_csv(f'../../logs/all learned skill data/four2more_side_two_legs.csv',index=False)
 
 
 
