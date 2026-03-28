@@ -47,12 +47,12 @@ python play.py --parkour_terrains --proj_name=explore_remeber --resume --exptid=
 
 ## 3.2 Possible Forefoot Standing
 | Filename | Latent Variables | Skill | Other Feasible Latents |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | novelex1 | 2.03 2.39 -1.40 2.57 | Possible forefoot standing |
 
 ## 3.3 New Forms of Bound
 | Filename | Latent Variables | Skill | Other Feasible Latents |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | novelex6 | -1.48 -3.15 -0.93 -1.133 | Aerial bound  |
 | novelex6 | 1 1 0 0 | Transforms into a new form of bound |
 | novelex5 | 1 0 1 1 | New skill: trot and bound fusion |
@@ -64,7 +64,7 @@ python play.py --parkour_terrains --proj_name=explore_remeber --resume --exptid=
 
 ## 3.4 Tripedal Walking
 | Filename | Latent Variables | Skill | Other Feasible Latents |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | novelex6 | 1 0 0 1 | Original trot becomes a new skill: walking with right front leg lifted |
 | novelex5 | 0 0 0 1 | New skill: front bound, rear trot |
 | novelex3 | 0.21 2.16 1.23 0.83 | Left front leg lifted, tripedal walking |
@@ -76,8 +76,8 @@ python play.py --parkour_terrains --proj_name=explore_remeber --resume --exptid=
 | four2more | 0.91 2.99 1.57 4.57 | Tripedal walking under pace: left front leg lifted high |
 
 ## 3.5 Bipedal Walking
-| Filename | Latent Variables | Skill |
-| :--- | :--- | :--- |
+| Filename | Latent Variables | Skill | Other Feasible Latents |
+| :--- | :--- | :--- | :--- |
 | novelex5 | 0.79 4.31 4.26 0.95 | Diagonal crawling |
 | novelex3 | 1.68 2.72 -1.43 -3.18 | Front legs raised, bipedal | also 1.59 1.73 -5.38 4.66 |
 | novelex2 | -0.88 2.5 -0.81 -2.42 | Walking sideways with left legs | -0.49 1.79 -3.91 -0.15 |
