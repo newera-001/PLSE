@@ -1,7 +1,5 @@
-Here's the English version converted to Markdown format:
 
-```markdown
-# 1. How to Train
+# 1. How to Trains
 
 ## 1.1 First, Train Basic Skills
 - Set `gait_explora_curriculum = False` in `legged_robot config`, and set `parkour_flat` to `1` in the `terrain dict`.
