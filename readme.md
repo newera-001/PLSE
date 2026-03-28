@@ -70,8 +70,8 @@ python play.py --parkour_terrains --proj_name=explore_remeber --resume --exptid=
 | novelex3 | 0.21 2.16 1.23 0.83 | Left front leg lifted, tripedal walking |
 | novelex2 | 2.72 3.10 -0.81 0.38 | Right front leg lifted |
 | two_old_and_six_new | -1.37 -1 1 0.5 | Three‑legged walk | 1 0 0 1 (left rear) |
-| two_old_and_six_new | -1.51 -4.73 -3.58 1.93 | (Right rear leg suspended) |
-| two_old_and_six_new | 0 1.59 -1.71 -1.49 | (Right front leg disabled) |
+| two_old_and_six_new | -1.51 -4.73 -3.58 1.93 | Right rear leg suspended |
+| two_old_and_six_new | 0 1.59 -1.71 -1.49 | Right front leg disabled |
 | four2more | 0 0 1 0 | Walking with front legs lifted |
 | four2more | 0.91 2.99 1.57 4.57 | Tripedal walking under pace: left front leg lifted high |
 
@@ -79,7 +79,7 @@ python play.py --parkour_terrains --proj_name=explore_remeber --resume --exptid=
 | Filename | Latent Variables | Skill | Other Feasible Latents |
 | :--- | :--- | :--- | :--- |
 | novelex5 | 0.79 4.31 4.26 0.95 | Diagonal crawling |
-| novelex3 | 1.68 2.72 -1.43 -3.18 | Front legs raised, bipedal | also 1.59 1.73 -5.38 4.66 |
+| novelex3 | 1.68 2.72 -1.43 -3.18 | Front legs raised, bipedal | 1.59 1.73 -5.38 4.66 |
 | novelex2 | -0.88 2.5 -0.81 -2.42 | Walking sideways with left legs | -0.49 1.79 -3.91 -0.15 |
 | two_old_and_six_new | -1.97 -2.38 1.15 1.84 | Rear legs lame, front legs moving |
 | two_old_and_six_new | 1.97 2.38 -1.15 -1.84 | Front legs lame, rear legs moving |
