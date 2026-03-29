@@ -136,8 +136,6 @@ def play(args):
     infos = {}
     infos["depth"] = env.depth_buffer.clone().to(ppo_runner.device)[:, -1] if ppo_runner.if_depth else None
 
-    random_gait_phase_data = torch.tensor([])
-    num_random_gait_phase_data = 1
 
     if env.cfg.terrain.parkour_terrains:
         env.gait_phase[:, :] = 0
@@ -194,8 +192,6 @@ def play(args):
                 else:
                     actions = policy(obs.detach(), hist_encoding=True, scandots_latent=depth_latent)
 
-
-            hang_data.append(actions.detach().cpu().numpy())
 
             obs, _, rews, dones, infos = env.step(actions.detach())
             if args.web:
